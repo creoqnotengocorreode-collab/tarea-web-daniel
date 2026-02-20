@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas HTML - Daniel</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Daniel ING</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home (Login)</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="profile.html">Perfil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="tags.html">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container mt-4">
+        <h1 class="text-center mb-5">Demostración de Etiquetas</h1>
+        
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                
+                <div class="card shadow mb-4">
+                    <div class="card-body">
+                        <h4 class="card-title text-primary">Superíndices y Subíndices</h4>
+                        <hr>
+                        <p class="fs-5">
+                            Fórmula matemática (<code>&lt;sup&gt;</code>): <br>
+                            <strong>x<sup>2</sup> + y<sup>2</sup> = z<sup>2</sup></strong>
+                        </p>
+                        <p class="fs-5">
+                            Fórmula química (<code>&lt;sub&gt;</code>): <br>
+                            <strong>H<sub>2</sub>O (Agua)</strong>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h4 class="card-title text-success">Bloques y Divisores</h4>
+                        <hr>
+                        <div class="p-3 bg-light border rounded text-center">
+                            Este es un bloque divisor (<code>&lt;div&gt;</code>) estilizado con Bootstrap para que resalte del resto del texto.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
